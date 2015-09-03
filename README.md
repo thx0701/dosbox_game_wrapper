@@ -24,18 +24,19 @@ I built this to play Epic Pinball cos I love that game.
 4. Create icons in ico and icns format and overwrite the originals. http://iconverticons.com/ is a great converter.
    準備跟製作游戲圖標
 5. Modify the dosbox.conf.osx and dosbox.conf.win files to run your game's executable. There's lots to tweak here, and you're on your own for this. Make sure to put the game's executable at the bottom of the file!!!
-   準備Dosbox.conf 注意要把自動批次檔設定好
+   準備Dosbox.conf 注意要把批次檔設定好 才會執行
 6. run `ruby make_win_app.rb` to build the Windows files
    For Win 就跑ruby make_win_app.rb
 7. run `ruby make_mac_app.rb` to build the Mac files
    For OS X 就跑ruby make_mac_app.rb
 8. Optionally, create an installer for your game with InnoSetup
+   輸出結果在Output目錄.他會另外壓成 ZIP
 
 
 Don't like these steps? Patches welcome!
 
 ## Additional notes
-
+Dosbox.conf設定要注意的.
 For CD games, put the CD image and the files in the `game` folder like this:
 
 `game\hd`  contains the files that would go on the hard drive

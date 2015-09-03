@@ -1,7 +1,8 @@
 # Game Wrapper for DOSBox
 
 These are my scripts, written in Ruby, for taking a DOS game and wrapping it
-with DOSBox for play on Windows and OSX. 
+with DOSBox for play on Windows and OSX.  
+這是方便把DOS GAME包裝成Windows ,OS X APP Script.主要是用Ruby寫的.
 
 ## How it works
 
